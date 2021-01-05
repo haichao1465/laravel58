@@ -9,8 +9,8 @@ class StaticPagesController extends Controller
 {
     // home
     public function home() {
-        $pdo = DB::connection()->getPdo();
-        dd($pdo);
+//        $pdo = DB::connection()->getPdo();
+//        dd($pdo);
         return view("static_pages/home");
     }
 
